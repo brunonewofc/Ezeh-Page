@@ -57,13 +57,13 @@ export default function StickyCtaBar({ onOpenCheckout }: StickyCtaBarProps) {
             </span>
           </div>
 
-          <button
-            onClick={onOpenCheckout}
-            className="group inline-flex items-center gap-1.5 py-2 px-3.5 sm:px-4 text-xs font-extrabold text-white bg-red-600 hover:bg-red-500 active:bg-red-700 rounded-lg shadow-[0_0_15px_rgba(220,38,38,0.4)] transition-all cursor-pointer whitespace-nowrap"
+          <a
+            href="https://pay.hotmart.com/T107839716O?off=cr25yvo9"
+            className="group inline-flex items-center gap-1.5 py-2 px-3.5 sm:px-4 text-xs font-extrabold text-white bg-red-600 hover:bg-red-500 active:bg-red-700 rounded-lg shadow-[0_0_15px_rgba(220,38,38,0.4)] transition-all cursor-pointer whitespace-nowrap text-center"
           >
             <span>Inscribirme Ahora</span>
             <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-          </button>
+          </a>
         </div>
       </div>
     </aside>

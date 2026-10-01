@@ -133,12 +133,12 @@ export default function ProofAndCaseStudies({ onOpenCheckout }: ProofAndCaseStud
                 <div className="text-xs text-neutral-400">Inversión única requerida:</div>
                 <div className="text-xl font-bold font-mono text-white">$34,97 USD</div>
               </div>
-              <button
-                onClick={onOpenCheckout}
-                className="px-4 py-2 text-xs font-bold text-white bg-red-600 hover:bg-red-500 rounded-lg transition-colors cursor-pointer"
+              <a
+                href="https://pay.hotmart.com/T107839716O?off=cr25yvo9"
+                className="px-4 py-2 text-xs font-bold text-white bg-red-600 hover:bg-red-500 rounded-lg transition-colors cursor-pointer text-center inline-block"
               >
                 Inscribirme Hoy
-              </button>
+              </a>
             </div>
           </div>
         </div>

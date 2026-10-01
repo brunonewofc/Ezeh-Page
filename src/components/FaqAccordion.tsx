@@ -114,12 +114,12 @@ export default function FaqAccordion({ onOpenCheckout }: FaqAccordionProps) {
           <p className="text-sm text-neutral-300 mb-3 font-medium">
             ¿Listo para construir tu primer canal automatizado y monetizar en dólares?
           </p>
-          <button
-            onClick={onOpenCheckout}
-            className="inline-flex items-center gap-2 py-3 px-6 text-sm font-bold text-white bg-red-600 hover:bg-red-500 rounded-xl transition-all cursor-pointer shadow-[0_0_20px_rgba(220,38,38,0.4)]"
+          <a
+            href="https://pay.hotmart.com/T107839716O?off=cr25yvo9"
+            className="inline-flex items-center gap-2 py-3 px-6 text-sm font-bold text-white bg-red-600 hover:bg-red-500 rounded-xl transition-all cursor-pointer shadow-[0_0_20px_rgba(220,38,38,0.4)] text-center"
           >
             <span>Asegurar Mi Acceso por $34,97 USD</span>
-          </button>
+          </a>
         </div>
 
       </div>

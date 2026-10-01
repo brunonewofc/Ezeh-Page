@@ -57,13 +57,13 @@ export default function Guarantee({ onOpenCheckout }: GuaranteeProps) {
               </p>
 
               <div className="pt-2">
-                <button
-                  onClick={onOpenCheckout}
-                  className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-white bg-neutral-900 hover:bg-neutral-800 border border-neutral-700 px-5 py-2.5 rounded-xl transition-colors cursor-pointer"
+                <a
+                  href="https://pay.hotmart.com/T107839716O?off=cr25yvo9"
+                  className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-white bg-neutral-900 hover:bg-neutral-800 border border-neutral-700 px-5 py-2.5 rounded-xl transition-colors cursor-pointer text-center"
                 >
                   <span>Probar el Método Sin Riesgo por $34,97 USD</span>
                   <ArrowRight className="w-4 h-4 text-red-500" />
-                </button>
+                </a>
               </div>
             </div>
 

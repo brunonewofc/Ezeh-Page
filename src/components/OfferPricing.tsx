@@ -161,14 +161,14 @@ export default function OfferPricing({ onOpenCheckout }: OfferPricingProps) {
           </div>
 
           {/* Big Conversion Button */}
-          <button
-            onClick={onOpenCheckout}
-            className="w-full group inline-flex items-center justify-center gap-3 py-4 sm:py-5 px-6 text-base sm:text-xl font-extrabold text-white bg-red-600 hover:bg-red-500 active:bg-red-700 rounded-xl shadow-[0_0_35px_rgba(220,38,38,0.6)] transition-all cursor-pointer transform hover:-translate-y-0.5"
+          <a
+            href="https://pay.hotmart.com/T107839716O?off=cr25yvo9"
+            className="w-full group inline-flex items-center justify-center gap-3 py-4 sm:py-5 px-6 text-base sm:text-xl font-extrabold text-white bg-red-600 hover:bg-red-500 active:bg-red-700 rounded-xl shadow-[0_0_35px_rgba(220,38,38,0.6)] transition-all cursor-pointer transform hover:-translate-y-0.5 text-center"
           >
             <Lock className="w-5 h-5 text-white/80" />
             <span>ACCEDER AHORA POR SOLO $34,97 USD</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </a>
 
           {/* Payment guarantees */}
           <div className="mt-6 flex flex-wrap items-center justify-center gap-4 text-xs text-neutral-400">

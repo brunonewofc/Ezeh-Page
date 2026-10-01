@@ -62,13 +62,13 @@ export default function Hero({ onOpenCheckout }: HeroProps) {
             <span className="text-lg font-bold text-red-500 font-mono">USD</span>
           </div>
 
-          <button
-            onClick={onOpenCheckout}
-            className="w-full group inline-flex items-center justify-center gap-3 py-4 px-6 text-base sm:text-lg font-extrabold text-white bg-red-600 hover:bg-red-500 active:bg-red-700 rounded-xl shadow-[0_0_30px_rgba(220,38,38,0.5)] transition-all duration-200 cursor-pointer transform hover:-translate-y-0.5"
+          <a
+            href="https://pay.hotmart.com/T107839716O?off=cr25yvo9"
+            className="w-full group inline-flex items-center justify-center gap-3 py-4 px-6 text-base sm:text-lg font-extrabold text-white bg-red-600 hover:bg-red-500 active:bg-red-700 rounded-xl shadow-[0_0_30px_rgba(220,38,38,0.5)] transition-all duration-200 cursor-pointer transform hover:-translate-y-0.5 text-center"
           >
             <span>QUIERO EMPEZAR POR SOLO $34,97 USD</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </a>
 
           {/* Micro trust markers */}
           <div className="mt-4 flex flex-wrap items-center justify-center gap-y-2 gap-x-4 text-xs text-neutral-400">

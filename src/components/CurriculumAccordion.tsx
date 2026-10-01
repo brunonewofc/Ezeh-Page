@@ -310,12 +310,12 @@ export default function CurriculumAccordion({ onOpenCheckout }: CurriculumAccord
 
         {/* Action Callout */}
         <div className="text-center">
-          <button
-            onClick={onOpenCheckout}
-            className="inline-flex items-center gap-3 py-4 px-8 text-base font-extrabold text-white bg-red-600 hover:bg-red-500 active:bg-red-700 rounded-xl shadow-[0_0_25px_rgba(220,38,38,0.4)] transition-all cursor-pointer transform hover:-translate-y-0.5"
+          <a
+            href="https://pay.hotmart.com/T107839716O?off=cr25yvo9"
+            className="inline-flex items-center gap-3 py-4 px-8 text-base font-extrabold text-white bg-red-600 hover:bg-red-500 active:bg-red-700 rounded-xl shadow-[0_0_25px_rgba(220,38,38,0.4)] transition-all cursor-pointer transform hover:-translate-y-0.5 text-center"
           >
             <span>ACCEDER A LOS 7 MÓDULOS Y 3 BONOS POR $34,97 USD</span>
-          </button>
+          </a>
           <div className="text-xs text-neutral-400 mt-2 font-mono">
             Pago único de $34,97 USD · Acceso vitalicio · Sin mensualidades
           </div>

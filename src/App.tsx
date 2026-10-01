@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Hero from './components/Hero';
 import RoiCalculator from './components/RoiCalculator';
 import CurriculumAccordion from './components/CurriculumAccordion';
@@ -8,18 +8,12 @@ import OfferPricing from './components/OfferPricing';
 import Guarantee from './components/Guarantee';
 import FaqAccordion from './components/FaqAccordion';
 import Footer from './components/Footer';
-import CheckoutModal from './components/CheckoutModal';
 import StickyCtaBar from './components/StickyCtaBar';
+import { HOTMART_CHECKOUT_URL } from './config/constants';
 
 export default function App() {
-  const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
-
   const handleOpenCheckout = () => {
-    setIsCheckoutOpen(true);
-  };
-
-  const handleCloseCheckout = () => {
-    setIsCheckoutOpen(false);
+    window.location.href = HOTMART_CHECKOUT_URL;
   };
 
   return (
@@ -53,9 +47,6 @@ export default function App() {
 
       {/* Quiet Footer */}
       <Footer />
-
-      {/* Interactive Simulated Checkout Drawer/Modal */}
-      <CheckoutModal isOpen={isCheckoutOpen} onClose={handleCloseCheckout} />
 
       {/* Floating Conversion Bar for Desktop & Mobile (<15% mobile viewport height) */}
       <StickyCtaBar onOpenCheckout={handleOpenCheckout} />

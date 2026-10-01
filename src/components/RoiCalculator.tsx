@@ -289,13 +289,13 @@ export default function RoiCalculator({ onOpenCheckout }: RoiCalculatorProps) {
                 utilizando la técnica de apalancamiento algorítmico y títulos de curiosidad irresistible.
               </div>
 
-              <button
-                onClick={onOpenCheckout}
-                className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-5 text-sm font-bold text-white bg-red-600 hover:bg-red-500 rounded-xl transition-all duration-150 cursor-pointer shadow-[0_0_20px_rgba(220,38,38,0.35)]"
+              <a
+                href="https://pay.hotmart.com/T107839716O?off=cr25yvo9"
+                className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-5 text-sm font-bold text-white bg-red-600 hover:bg-red-500 rounded-xl transition-all duration-150 cursor-pointer shadow-[0_0_20px_rgba(220,38,38,0.35)] text-center"
               >
                 <span>Aprender el Método por $34,97 USD</span>
                 <ArrowRight className="w-4 h-4" />
-              </button>
+              </a>
             </div>
 
           </div>
