@@ -1,0 +1,6 @@
+{
+  "name": "Master Monetización YouTube",
+  "description": "Página de ventas de alta conversión para el curso de monetización y ganancias en YouTube por $34.97 USD.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
