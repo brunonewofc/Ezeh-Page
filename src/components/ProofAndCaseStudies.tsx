@@ -83,9 +83,11 @@ export default function ProofAndCaseStudies({ onOpenCheckout }: ProofAndCaseStud
           <div className="lg:col-span-7 relative group">
             <div className="relative rounded-2xl overflow-hidden border border-neutral-800 bg-black shadow-2xl">
               <img
-                src="/src/assets/images/yt_analytics_proof_1790803024952.jpg"
+                src="/images/yt_analytics_proof_1790803024952.jpg"
                 alt="Panel de ingresos y métricas de YouTube Studio"
                 className="w-full h-auto object-cover transform group-hover:scale-[1.01] transition-transform duration-300"
+                loading="lazy"
+                decoding="async"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />

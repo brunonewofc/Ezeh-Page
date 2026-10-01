@@ -92,9 +92,11 @@ export default function Hero({ onOpenCheckout }: HeroProps) {
           <div className="relative rounded-2xl overflow-hidden border border-[#383838] bg-[#141414] shadow-2xl">
             <div className="relative aspect-[16/9] w-full bg-[#1c1c1c]">
               <img
-                src="/src/assets/images/yt_mastery_mockup_1790803034899.jpg"
+                src="/images/yt_mastery_mockup_1790803034899.jpg"
                 alt="Pack completo del Master de Monetización de YouTube"
                 className="w-full h-full object-cover"
+                loading="eager"
+                decoding="async"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#1c1c1c] via-transparent to-[#1c1c1c]/30 pointer-events-none" />

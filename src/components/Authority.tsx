@@ -12,9 +12,11 @@ export default function Authority() {
           <div className="md:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-neutral-800 bg-neutral-950 aspect-square shadow-2xl">
               <img
-                src="/src/assets/images/instructor_portrait_1790803056377.jpg"
+                src="/images/instructor_portrait_1790803056377.jpg"
                 alt="Andrés Navarro - Creador y Especialista en Monetización de YouTube"
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent pointer-events-none" />
