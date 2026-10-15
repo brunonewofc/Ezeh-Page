@@ -107,15 +107,29 @@ export default function FaqAccordion({ onOpenCheckout }: FaqAccordionProps) {
         </div>
 
         {/* Bottom prompt */}
-        <div className="p-4 sm:p-5 rounded-2xl bg-neutral-900/40 border border-neutral-800 text-center max-w-xl mx-auto">
+        <div className="p-4 sm:p-5 rounded-2xl bg-neutral-900/40 border border-neutral-800 text-center max-w-xl mx-auto flex flex-col items-center">
           <p className="text-xs sm:text-sm text-neutral-300 mb-3 font-medium">
             ¿Listo para empezar tu canal y monetizar en dólares?
           </p>
           <a
             href={HOTMART_CHECKOUT_URL}
-            className="inline-flex items-center gap-2 py-3 px-6 text-xs sm:text-sm font-bold text-white bg-red-600 hover:bg-red-500 rounded-xl transition-all cursor-pointer shadow-[0_0_20px_rgba(220,38,38,0.4)] text-center"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 py-3 px-6 text-xs sm:text-sm font-bold text-white bg-red-600 hover:bg-red-500 rounded-xl transition-all cursor-pointer shadow-[0_0_20px_rgba(220,38,38,0.4)] text-center"
           >
             <span>Asegurar mi acceso por $34,97 USD</span>
+          </a>
+
+          {/* Botón de WhatsApp para consultas */}
+          <a
+            href="https://wa.link/7numan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 w-full sm:w-auto group inline-flex items-center justify-center gap-2.5 py-3 px-5 text-xs sm:text-sm font-extrabold text-white bg-[#25D366] hover:bg-[#20bd5a] active:bg-[#1da850] rounded-xl shadow-[0_0_20px_rgba(37,211,102,0.35)] transition-all cursor-pointer transform hover:-translate-y-0.5 text-center"
+          >
+            <svg className="w-4 h-4 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.771.821 2.791.821 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.807-5.768-5.807zm3.391 8.248c-.146.415-.852.797-1.187.848-.328.05-.758.077-2.373-.591-1.932-.8-3.167-2.775-3.262-2.903-.099-.127-.779-1.037-.779-1.974 0-.937.48-1.399.664-1.59.182-.191.398-.239.531-.239.13 0 .261.002.374.007.121.005.284-.046.444.339.164.398.562 1.371.611 1.47.05.1.082.217.016.35-.066.13-.1.21-.198.325-.099.116-.209.26-.299.35-.099.098-.202.204-.087.401.116.198.514.848 1.101 1.371.756.674 1.393.882 1.59.98.198.099.314.083.43-.05.116-.133.498-.58.63-.78.133-.198.265-.165.446-.098.182.066 1.157.546 1.355.646.199.099.332.148.381.231.05.082.05.479-.096.894z"/>
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 1.891.524 3.662 1.435 5.176L2 22l4.957-1.396A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.063c-1.637 0-3.174-.469-4.48-1.282l-.322-.199-2.937.828.841-2.86-.217-.341C3.967 15.006 3.438 13.565 3.438 12c0-4.721 3.841-8.563 8.562-8.563 4.722 0 8.563 3.842 8.563 8.563 0 4.721-3.841 8.063-8.563 8.063z"/>
+            </svg>
+            <span>TENGO DUDAS, CONSULTAR POR WHATSAPP</span>
           </a>
         </div>
 
